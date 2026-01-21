@@ -1,0 +1,5 @@
+DelphiZXingQRCode修改记录
+1、2026年01月20日新增一行代码如下：
+{$MODE Delphi} 
+
+2、2026年01月20日文件名由《DelphiZXIngQRCode》改为《DelphiZXingQRCode》同单元名一致。

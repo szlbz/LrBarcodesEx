@@ -1,0 +1,78 @@
+object BarCodeExForm: TBarCodeExForm
+  Left = 259
+  Height = 374
+  Top = 99
+  Width = 463
+  BorderStyle = bsDialog
+  Caption = 'BarCodeEx editor'
+  ClientHeight = 374
+  ClientWidth = 463
+  Position = poScreenCenter
+  LCLVersion = '4.4.0.0'
+  OnCreate = FormCreate
+  object Image_logo: TImage
+    Left = 351
+    Height = 28
+    Top = 8
+    Width = 27
+    AutoSize = True
+    Picture.Data = {
+      1754506F727461626C654E6574776F726B477261706869633201000089504E47
+      0D0A1A0A0000000D494844520000001B0000001C08020000001FB353BA000000
+      097048597300000EC400000EC401952B0E1B000000E4494441544889E556BB0E
+      83400C6B50FFFF97D3E1A4C8D8BE4B0616D40C1570C638CE438DCCFC3C1AD7B3
+      742F61FCD65544E8F1723922327301EAC2226F8CF814BF81EF17C0220D239E69
+      0F2C75F57C87EC7D448A49ABF58C45B4739082B33EA820BA1DF2C6789080E56E
+      90AD3543694623B65BB521DA67AB4C475C19A2431C49CBCC9D09266B15AB6383
+      60466AF713E2D0CCB6432F7D0D1347AED258BFEAECB4D6EAAC1DF615D3DD437B
+      086F29F77EF750B2A4FDE463E1D03EFA18358DCD8FE75AC36E491ACA93468D4A
+      0D298A5413EF770F96C53639DD8E760FA943BC1987BFFC07F003DD4AFC315670
+      E22D0000000049454E44AE426082
+    }
+    Visible = False
+  end
+  object ComboBox_BarType: TComboBox
+    Left = 16
+    Height = 25
+    Top = 24
+    Width = 432
+    ItemHeight = 17
+    Style = csDropDownList
+    TabOrder = 0
+  end
+  object Button_Ok: TButton
+    Left = 248
+    Height = 29
+    Top = 328
+    Width = 97
+    Caption = 'OK'
+    ModalResult = 1
+    TabOrder = 1
+  end
+  object Button_Cancel: TButton
+    Left = 351
+    Height = 29
+    Top = 328
+    Width = 97
+    Caption = 'Cancel'
+    ModalResult = 2
+    TabOrder = 2
+  end
+  object Memo_BarCodeEx: TMemo
+    Left = 16
+    Height = 218
+    Top = 64
+    Width = 432
+    ScrollBars = ssBoth
+    TabOrder = 3
+  end
+  object Button_DBData: TButton
+    Left = 16
+    Height = 29
+    Top = 328
+    Width = 131
+    Caption = 'DB Data'
+    TabOrder = 4
+    OnClick = Button_DBDataClick
+  end
+end
