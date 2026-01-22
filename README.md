@@ -1,4 +1,4 @@
-# LrBarcodesEx是网友阿英编写，我只上负责放上来。
+# LrBarcodesEx是网友阿英编写的。
 
 1. LrBarcodesEx adds the function of printing QR codes to LazReport.
 2. License: Apache License (v2.0)
