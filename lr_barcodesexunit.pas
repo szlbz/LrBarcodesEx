@@ -1,6 +1,4 @@
 {
-LazReport BarcodesEx
-
 Copyright (C) 2026 LBZ and Ying
 }
 
