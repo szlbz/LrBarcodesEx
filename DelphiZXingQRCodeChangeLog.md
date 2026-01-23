@@ -1,4 +1,4 @@
-DelphiZXingQRCode Change Log
+DelphiZXingQRCode Change Log:
 
 1.On January 20, 2026, a new line of code was added as follows:
 
