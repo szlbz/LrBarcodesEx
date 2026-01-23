@@ -7,13 +7,10 @@
 
 
 
-1、LrBarcodesEx为LazReport增加打印二维码功能。
-
-2、License:
-Apache License (v2.0)
-
-3、本控件使用了DelphiZXingQRCode库，详见《DelphiZXingQRCode_README》。
-
-4、DelphiZXingQRCode下载链接：
-https://github.com/foxitsoftware/DelphiZXingQRCode
+1、LrBarcodesEx为LazReport增加打印二维码功能。  
+2、License:  
+Apache License (v2.0)  
+3、本控件使用了DelphiZXingQRCode库，详见《DelphiZXingQRCode_README》。  
+4、DelphiZXingQRCode下载链接：  
+https://github.com/foxitsoftware/DelphiZXingQRCode  
 
