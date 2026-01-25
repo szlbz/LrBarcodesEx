@@ -10,8 +10,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, ExtCtrls,
-  StdCtrls, LR_Class, lr_const, LR_Utils, LR_DBRel, LResources,
-  DelphiZXingQRCode;
+  StdCtrls, LR_Class,lr_const, LR_Utils, LR_DBRel, LResources, DelphiZXingQRCode;
 
 type
 
@@ -205,13 +204,12 @@ var
   tmpQRCode: TDelphiZXingQRCode;
   Row, Column: Integer;
   tmpBitmap: TBitmap;
-  tmpEncoding: Integer;
+  tmpEncoding: Integer; 
 
   Ratio: Double;
   NewWidth, NewHeight: Integer;
   CenterRect: TRect;
-begin
-
+begin    
   BeginDraw(aCanvas);
   CalcGaps;
   tmpQRCode := TDelphiZXingQRCode.Create;
@@ -243,7 +241,7 @@ begin
           tmpBitmap.Canvas.DrawPixel(Column, Row,TColorToFPColor(clBlack));
         end;
       end;
-    end;
+    end; 
     // 计算缩放比例
     Ratio := tmpBitmap.Width / tmpBitmap.Height;
 
