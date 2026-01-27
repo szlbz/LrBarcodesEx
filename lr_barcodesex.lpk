@@ -4,6 +4,7 @@
     <PathDelim Value="\"/>
     <Name Value="lr_BarcodesEx"/>
     <Type Value="RunAndDesignTime"/>
+    <Author Value="315795176"/>
     <CompilerOptions>
       <Version Value="11"/>
       <PathDelim Value="\"/>
@@ -11,37 +12,40 @@
         <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
       </SearchPaths>
     </CompilerOptions>
+    <Description Value="LrBarcodesEx adds the function of printing QR codes to LazReport."/>
+    <License Value="Apache v2.0"/>
     <Version Minor="1"/>
-    <Files>
-      <Item>
+    <Files Count="5">
+      <Item1>
         <Filename Value="lr_e_barcodesex.pas"/>
         <HasRegisterProc Value="True"/>
         <UnitName Value="lr_e_BarcodesEx"/>
-      </Item>
-      <Item>
+      </Item1>
+      <Item2>
         <Filename Value="lr_barcodesexunit.pas"/>
         <UnitName Value="lr_barcodesExUnit"/>
-      </Item>
-      <Item>
+      </Item2>
+      <Item3>
         <Filename Value="lr_barcodesexunit.lfm"/>
         <Type Value="LFM"/>
-      </Item>
-      <Item>
+      </Item3>
+      <Item4>
         <Filename Value="lr_barcodesexuniticon.lrs"/>
         <Type Value="LRS"/>
-      </Item>
-      <Item>
+      </Item4>
+      <Item5>
         <Filename Value="DelphiZXingQRCode.pas"/>
         <UnitName Value="DelphiZXingQRCode"/>
-      </Item>
+      </Item5>
     </Files>
-    <RequiredPkgs>
-      <Item>
+    <CompatibilityMode Value="True"/>
+    <RequiredPkgs Count="2">
+      <Item1>
         <PackageName Value="lazreport"/>
-      </Item>
-      <Item>
+      </Item1>
+      <Item2>
         <PackageName Value="FCL"/>
-      </Item>
+      </Item2>
     </RequiredPkgs>
     <UsageOptions>
       <UnitPath Value="$(PkgOutDir)"/>
